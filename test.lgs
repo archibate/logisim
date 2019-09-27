@@ -1,0 +1,13 @@
+sub clk
+ load not-clock.lgs
+ends
+
+load full-adder.lgs
+
+link a clk.out4
+link b 1
+link cin clk.out6
+
+show a b cin sum cout
+
+run 12

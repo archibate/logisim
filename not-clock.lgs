@@ -1,0 +1,37 @@
+; module not-clock out1 out2 out3 out4 out5 out6 out7
+not t1_0 t1_0
+link out1 t1_0
+not t2_0 t2_1
+link t2_1 t2_0
+link out2 t2_0
+not t3_0 t3_1
+link t3_1 t3_2
+link t3_2 t3_0
+link out3 t3_0
+not t4_0 t4_1
+link t4_1 t4_2
+link t4_2 t4_3
+link t4_3 t4_0
+link out4 t4_0
+not t5_0 t5_1
+link t5_1 t5_2
+link t5_2 t5_3
+link t5_3 t5_4
+link t5_4 t5_0
+link out5 t5_0
+not t6_0 t6_1
+link t6_1 t6_2
+link t6_2 t6_3
+link t6_3 t6_4
+link t6_4 t6_5
+link t6_5 t6_0
+link out6 t6_0
+not t7_0 t7_1
+link t7_1 t7_2
+link t7_2 t7_3
+link t7_3 t7_4
+link t7_4 t7_5
+link t7_5 t7_6
+link t7_6 t7_0
+link out7 t7_0
+; endmodule
