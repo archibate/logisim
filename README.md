@@ -1,2 +1,2 @@
 # logisim
-a door-level digital circle simulator
+a door-level digital circuit simulator
